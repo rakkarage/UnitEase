@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: GetFromColor
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"UnityEngine.Vector4","key":"value","label":null,"summary":null,"hideLabel":false}],"pan":{"x":-15.0,"y":63.0},"zoom":1.0,"elements":[{"type":"System.String","value":{"$content":"fromColor","$type":"System.String"},"defaultValues":{},"position":{"x":-255.0,"y":-27.0},"guid":"a16e04ea-2956-4d35-a5fc-938152c688cd","$version":"A","$type":"Bolt.Literal","$id":"10"},{"type":"UnityEngine.Vector4","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Vector4"},"defaultValues":{},"position":{"x":-255.0,"y":93.0},"guid":"229491d2-e78f-472f-ba39-ca8d9a31c7e0","$version":"A","$type":"Bolt.Literal","$id":"12"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-36.0,"y":24.0},"guid":"f426daa7-70c9-4c8d-b5ac-1d295d8e94a6","$version":"A","$type":"Bolt.SuperUnit","$id":"14"},{"defaultValues":{},"position":{"x":132.0,"y":24.0},"guid":"234ea43b-d065-48df-b8a0-c23a8b459648","$version":"A","$type":"Bolt.GraphOutput","$id":"17"},{"sourceUnit":{"$ref":"10"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"name","guid":"aee42c23-778c-4325-9b98-570d45866324","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"default","guid":"a1a99dbd-231b-4491-a15f-fff635fca393","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"value","guid":"8def2b44-ab87-4fbd-b159-b0e54d3d4eb3","$type":"Bolt.ValueConnection"},{"position":{"xMin":-303.0,"yMin":-87.0,"xMax":273.0,"yMax":213.0},"label":"Group","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"9bea40d3-da7a-418e-b53d-9442203683da","$version":"A","$type":"Ludiq.GraphGroup"}],"title":null,"summary":null,"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: bfa536db0c3cbf244ad35722205b7dd2, type: 2}

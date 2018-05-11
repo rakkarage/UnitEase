@@ -12,9 +12,15 @@ Based on:
 ## Instructions
 
 You can drag a Flow Macro into your flow and hook it up like I do in intro.
-It takes an ease type, a from and to value, a time, and it outputs the value beTWEEN from and to.
+It takes an ease type, a from and to value, a time, and it outputs the value beTWEEN from and to for the given time.
 
 Or you can attach a Flow State and set variables.
+
+TODO:
+
+- mostly broken garbage but intro example works well
+- need to make GoAlpha etc work
+- need to make multiple work on same object with diff variables? no way to pass into a state?
 
 ### Flow States
 
@@ -59,10 +65,18 @@ Or you can attach a Flow State and set variables.
 ### Input Variables
 
 - type: EaseType
-- from: float
+    - default: linear
+- from: float, vector2, 3, 4
+    - default: 0, (0, 0), (0, 0, 0), (0, 0, 0, 0)
 - to: float
+    - default: 1, (1, 1), (1, 1, 1), (1, 1, 1, 1)
 - time: float
+    - default: 1, (1, 1), (1, 1, 1), (1, 1, 1, 1)
 - delay: float
+    - default: 0, (0, 0), (0, 0, 0), (0, 0, 0, 0)
 - unscaled: bool (use unscaled time, for ui)
+    - default: false
 - repeat: int (0 or -1 = forever)
+    - default: 1
 - pingPong: bool (each repeat includes reverse back to start?)
+    - default: false

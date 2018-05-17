@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: GetComplete3
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"value","label":null,"summary":null,"hideLabel":false}],"pan":{"x":168.0,"y":30.0},"zoom":1.0,"elements":[{"type":"System.String","value":{"$content":"complete3","$type":"System.String"},"defaultValues":{},"position":{"x":-48.0,"y":0.0},"guid":"7573f77c-0b97-46a8-b990-15894a852411","$version":"A","$type":"Bolt.Literal","$id":"10"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":120.0,"y":0.0},"guid":"e4185396-10d7-4d04-bf09-07d7a1f70ec9","$version":"A","$type":"Bolt.SuperUnit","$id":"12"},{"defaultValues":{},"position":{"x":288.0,"y":0.0},"guid":"5397d588-c919-4830-882a-08c289c55a24","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"value","guid":"d246c172-2a69-4ff4-862e-be07560e0f78","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"name","guid":"aa5a4983-92fa-4a95-94c3-b2dca4d8f039","$type":"Bolt.ValueConnection"},{"position":{"xMin":-96.0,"yMin":-72.0,"xMax":432.0,"yMax":132.0},"label":"Group","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"b351bfa7-d401-467e-af79-fef01a6095e6","$version":"A","$type":"Ludiq.GraphGroup"}],"title":null,"summary":null,"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 8356267c954a98b4ba836acdf59512f3, type: 2}

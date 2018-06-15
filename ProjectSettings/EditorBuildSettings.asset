@@ -9,5 +9,6 @@ EditorBuildSettings:
     path: Assets/UnitEaseTest/Intro.unity
     guid: 1b93825cddd3edd48af35c4625e01ecc
   - enabled: 1
-    path: Assets/UnitEaseTest/UnitEaseTest.unity
-    guid: 6bf82a1a32b2fac40af971c60bd2fc3a
+    path: Assets/UnitEaseTest/Follow.unity
+    guid: 19da5fec36109794f9ff218b8236bfdb
+  m_configObjects: {}

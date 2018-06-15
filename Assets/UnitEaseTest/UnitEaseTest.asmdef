@@ -1,6 +1,6 @@
 {
     "name": "UnitEaseTest",
-    "references": [],
-    "includePlatforms": [],
-    "excludePlatforms": []
+    "references": [
+        "UnitEase"
+    ]
 }

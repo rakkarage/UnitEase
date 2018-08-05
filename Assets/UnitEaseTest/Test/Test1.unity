@@ -717,7 +717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 721.5, y: -32}
+  m_AnchoredPosition: {x: 739, y: -32}
   m_SizeDelta: {x: 64, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &158616023
@@ -5055,8 +5055,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1069.1666, y: -142}
-  m_SizeDelta: {x: 363.66666, y: 252}
+  m_AnchoredPosition: {x: 1098.3334, y: -231.5}
+  m_SizeDelta: {x: 375.33334, y: 431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1097306870
 MonoBehaviour:
@@ -5659,8 +5659,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -142}
-  m_SizeDelta: {x: 363.66666, y: 252}
+  m_AnchoredPosition: {x: 659, y: -231.5}
+  m_SizeDelta: {x: 375.33334, y: 431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207753203
 MonoBehaviour:
@@ -5822,7 +5822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -32}
+  m_AnchoredPosition: {x: 659, y: -32}
   m_SizeDelta: {x: 64, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254852557
@@ -8295,8 +8295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.83333, y: -142}
-  m_SizeDelta: {x: 363.66666, y: 252}
+  m_AnchoredPosition: {x: 219.66667, y: -231.5}
+  m_SizeDelta: {x: 375.33334, y: 431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2034382135
 MonoBehaviour:
@@ -8369,7 +8369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 561.5, y: -32}
+  m_AnchoredPosition: {x: 579, y: -32}
   m_SizeDelta: {x: 64, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044120446

@@ -1,6 +1,7 @@
 {
     "name": "UnitEaseTest",
     "references": [
-        "UnitEase"
+        "UnitEase",
+        "Ludiq"
     ]
 }

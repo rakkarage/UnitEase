@@ -131,7 +131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &191490627
 RectTransform:
   m_ObjectHideFlags: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"pingPong","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"repeat","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"time","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"delay","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"type","value":{"$content":"Linear","$type":"EaseType"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"pingPong","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"repeat","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"time","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"delay","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"type","value":{"$content":"BounceOut","$type":"EaseType"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &191490630
 MonoBehaviour:
@@ -231,7 +231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &437064292
 RectTransform:
   m_ObjectHideFlags: 0
@@ -386,7 +386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &961489716
 RectTransform:
   m_ObjectHideFlags: 0
@@ -548,7 +548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1088122464
 RectTransform:
   m_ObjectHideFlags: 0
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"pingPong","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"repeat","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"time","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"delay","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"colorTo","value":{"x":1.0,"y":0.0,"z":0.0,"w":0.5,"$type":"UnityEngine.Vector4"},"$version":"A"},{"name":"type","value":{"$content":"Linear","$type":"EaseType"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"pingPong","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"repeat","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"time","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"delay","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"colorTo","value":{"x":1.0,"y":0.0,"z":0.0,"w":0.5,"$type":"UnityEngine.Vector4"},"$version":"A"},{"name":"type","value":{"$content":"BounceOut","$type":"EaseType"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1465099705
 MonoBehaviour:
